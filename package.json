@@ -1,0 +1,22 @@
+{
+    "name": "gqmgen",
+    "version": "1.0.0",
+    "author": "InnerSource Commons <info@innersourcecommons.org>",
+    "main": "index.js",
+    "type": "commonjs",
+    "dependencies": {
+        "commonmark": "^0.30.0",
+        "csvtojson": "^2.0.10",
+        "exceljs": "^4.3.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc && node index.js",
+        "test": "tsc --noEmit && node --loader tsx --test *test.ts"
+    },
+    "devDependencies": {
+        "@types/commonmark": "^0.27.7",
+        "@types/node": "^20.7.0",
+        "typescript": "^5.2.2"
+    }
+}

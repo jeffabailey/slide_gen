@@ -44,4 +44,4 @@ jspm_packages
 # Project generated files
 *.pdf
 *.xlsx
-*.md
+slides/*.md

@@ -1,7 +1,23 @@
+# Slide Generator
 
+Input an excel file and generate a slide deck.
 
-docker run --rm -p 1948:1948 -p 35729:35729 -v <path-to-your-slides>:/slides webpronl/reveal-md:latest /slides --watch
+## Usage
 
-https://revealjs.com/#/5
+1. Create an xlsx file with this format.
 
-https://commonmark.org/
+|      | Edit cells in yellow   |
+| ---- | ---- |
+| Row 1     |      |
+| Row 2     |      |
+
+2. Copy your xlsx file to the slides directory.
+
+2. 
+
+```bash
+npm run start
+```
+
+4. Open <Your Excel FileName>.pdf
+5. Profit?!
